@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  background-color: black;
+}
+
+body {
+  height: 100vh;
+  background-image: url("/bg.png");
+  background-size: cover;
+}
+
+header {
+  background-color: #1d1e1d;
+  height: 54px;
+  padding: 10px 16px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.logo h2 {
+  color: white;
+  font-weight: 500;
+}
+
+.logo > img {
+  height: 100%;
+  width: auto;
+  margin-right: 12px;
+}
+header a {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 9px 16px;
+  height: 34px;
+  border-radius: 17px;
+  text-align: center;
+  transition: all 0.15s ease 0.15s;
+  background-color: #1a8ad5;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: middle;
+  padding-top: 100px;
+}
+
+main > .page_data {
+  background-color: #1e1e1e;
+  border-radius: 16px;
+  width: 400px;
+  /* height: 600px; */
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 16px;
+}
+.page_data > img {
+  width: 142px;
+  height: 142px;
+  margin-bottom: 16px;
+  border-radius: 100%;
+}
+
+.page_data > h2 {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin-bottom: 12px;
+}
+.page_data > span {
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #7d7f81;
+  margin-bottom: 18px;
+}
+.page_data > a {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  background: #1a8ad5;
+  border-radius: 22px;
+  overflow: hidden;
+  display: inline-block;
+  padding: 13px 24px;
+  height: 42px;
+  text-transform: uppercase;
+  vertical-align: top;
+  text-decoration: none;
+}
